@@ -1,0 +1,88 @@
+/*Downloaded from https://www.codeseek.co/ianrose/scrollstory-c3js-xOyYLR */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  line-height: 1.6;
+  font-size: 110%;
+  color: #3d305c;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+figcaption {
+  margin-top: -27px;
+  font-size: 0.75em;
+  line-height: 1;
+  font-family: sans-serif;
+  color: grey;
+}
+
+header {
+  height: 100vh;
+  background-color: #3d305c;
+  color: #f8fa8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 11vh;
+  line-height: 1;
+}
+
+h1,
+h2,
+p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.media-block {
+  width: 100%;
+}
+
+.text-block {
+  width: 40vw;
+}
+
+.fixed-dependent {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  padding-left: 18px;
+}
